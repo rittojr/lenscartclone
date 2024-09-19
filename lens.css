@@ -1,0 +1,206 @@
+/*Css Section */
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Mulish',sans-serif;
+}
+
+/*Navigation Section */
+.fnav {
+    display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     
+     
+    
+}
+.navbar{
+    margin-left: 200px;
+}
+
+/* On input section under Navigation Section */
+ .fnav input {
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid grey;
+    margin-top: 5px;
+} 
+
+.fnav-items{
+    margin: 0px 20px;
+    display: inline;
+}
+
+/* On p tag under navigation section */
+.fnav p {
+    margin-top: 17px;
+    font-size: 17px;
+    padding-left: 40px;
+    /* cursor: pointer; */
+}
+
+/* Second navigation */
+.snav {
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+    align-items: center;
+     background-color: rgb(218, 213, 213); 
+    /* font-weight: 800; */
+}
+
+/* Second navigation on hover */
+.snav p:hover {
+    border-bottom: 2px solid rgb( 13, 13, 46);
+    color: rgb( 13, 13, 46);
+    cursor: pointer;
+
+}
+
+/*Second navigation on img */
+.snav img {
+    width: 6%;
+
+}
+
+/* Lens section */
+.lens {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255); 
+    padding: 11px;
+    
+
+}
+
+/* On img in Lens Section */
+.lens img {
+    display: flex;
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*On main section */
+.main img {
+    width: 100%;
+
+}
+
+/* On cart and on card section */
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+}
+
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 70%;
+}
+
+.Card button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 18px;
+    padding: 4px;
+}
+
+/* On banner class */
+.Banner h2 {
+    text-align: center;
+    padding:px;
+}
+.banner{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.t-img{
+    display: flex;
+
+}
+.banner img{
+    width: 50%;
+    
+}
+
+
+.Banner .img img {
+    width: 100%;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 50%;
+}
+
+/* Goggle section */
+.Goagle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goagle img {
+    width: 30%;
+    padding: 33px;
+
+}
+
+
+/*Footer section */
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 76, 76);
+    color: white;
+    padding: 43px;
+}
+
+.Footer .list {
+    margin-left: 5%;
+}
+
+.Footer .list ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.Footer .list ul li {
+
+    padding: 10px;
+}
+
+.Footer .list img {
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+
+}
